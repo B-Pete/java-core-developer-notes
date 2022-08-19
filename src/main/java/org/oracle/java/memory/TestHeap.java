@@ -1,5 +1,9 @@
 package org.oracle.java.memory;
 
+/**
+ * -Xmx256m -verbose:gc -Xlog:gc*
+ *
+ */
 public class TestHeap {
 
 	static int i = 0;

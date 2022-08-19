@@ -1,5 +1,8 @@
 package org.oracle.java.memory;
 
+/**
+ * -XX:MaxMetaspaceSize=256m -verbose:gc -Xlog:gc*
+ */
 public class TestMetaspace {
 
 	static javassist.ClassPool cp = javassist.ClassPool.getDefault();
